@@ -1,0 +1,62 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<meta name="generator" content="Adobe GoLive 4">
+		<title>Blue Oyster home</title>
+		<script><!--
+// SS5BUTTONS04
+var browser     = '';
+var version     = '';
+var entrance    = '';
+var cond        = '';
+// BROWSER?
+if (browser == ''){
+if (navigator.appName.indexOf('Microsoft') != -1)
+browser = 'IE'
+else if (navigator.appName.indexOf('Netscape') != -1)
+browser = 'Netscape'
+else browser = 'NN';
+}
+// VERSION?
+if (version == ''){
+version= navigator.appVersion;
+paren = version.indexOf('(');
+whole_version = navigator.appVersion.substring(0,paren-1);
+version         = parseInt(whole_version);
+}
+// BROWSER & VERSION
+if (browser == 'IE' && version >= 4) entrance = 'yes';
+if (browser == 'IE' && version < 4) entrance = 'no';
+if (browser == 'Netscape' && version >= 2.02) entrance = 'yes';
+if (browser == 'Netscape' && version < 2.02) entrance = 'no';
+if (entrance=='yes'){
+name0a = new Image;name0a.src = 'fra1.gif';
+name0b = new Image;name0b.src = 'fra1b.gif';
+name1a = new Image;name1a.src = 'fra2.gif';
+name1b = new Image;name1b.src = 'fra2b.gif';
+name2a = new Image;name2a.src = 'fra3.gif';
+name2b = new Image;name2b.src = 'fra3b.gif';
+name3a = new Image;name3a.src = 'fra4.gif';
+name3b = new Image;name3b.src = 'fra4b.gif';
+}
+function lighten(imgName) {
+if (entrance == 'yes'){
+imgOn = eval(imgName + 'b.src');
+document[imgName].src = imgOn;}
+}
+function darken(imgName) {
+if (entrance == 'yes'){
+imgOff = eval(imgName + 'a.src');
+document[imgName].src = imgOff;}
+ }
+// -->
+		</script>
+		<!-- Button no:1 -->
+		<!-- Button no:2 -->
+		<!-- Button no:3 -->
+		<!-- Button no:4 -->
+	</head>
+
+	<body background="back3.jpg">
+	<a href="current.html" onmouseover="lighten('name0'); window.status='now showing'; return true;" onmouseout="darken('name0'); window.status='';return true" onclick="darken('name0')"><img src="fra1.gif" alt="Currently showing at the Blue Oyster" border="0" name="name0"></a> <a href="soon.html" onmouseover="lighten('name1'); window.status='coming soon'; return true;" onmouseout="darken('name1'); window.status='';return true" onclick="darken('name1')"><img src="fra2.gif" alt="Diary of Events" border="0" name="name1"></a> <a href="join.html" onmouseover="lighten('name2'); window.status='join the blue oyster mailing list'; return true;" onmouseout="darken('name2'); window.status='';return true" onclick="darken('name2')"><img src="fra3.gif" alt="Join the mailing list" border="0" name="name2"></a> <a href="mail.html" onmouseover="lighten('name3'); window.status='drop us a line'; return true;" onmouseout="darken('name3'); window.status='';return true" onclick="darken('name3')"><img src="fra4.gif" alt="E-mail the Blue Oyster" border="0" name="name3"></a></body></html>

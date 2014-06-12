@@ -1,0 +1,18 @@
+td {
+	font-family: Geneva, Arial, Helvetica, san-serif;
+	font-size: 9px;
+	color: #333333;
+}
+a {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 9px; font-weight: normal; color: #FF0000; text-decoration: none}
+a:hover {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 9px; color: #000000; text-decoration: none; background-color: #FF0000}
+.big {
+	font-size: 18px;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+.jst {
+	text-align: justify;
+}
+b{
+	font-weight: bold;
+}

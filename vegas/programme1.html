@@ -1,0 +1,219 @@
+<HTML>
+<HEAD>
+<TITLE>Blue Oyster Gallery</TITLE>
+
+<LINK REL="stylesheet" HREF="style.css">
+
+<STYLE type="text/css"><!--
+BODY {
+scrollbar-base-color: cc3300;
+scrollbar-track-color: cc3300;
+scrollbar-face-color: FF0000;
+scrollbar-highlight-color: FFFFFF;
+scrollbar-3dlight-color: cc3300;
+scrollbar-darkshadow-color: cc3300;
+scrollbar-shadow-color: FF0000;
+scrollbar-arrow-color: FFFFFF;
+}
+--></STYLE> 
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		icon_button_proposals_over = newImage("images/icon-button_proposals_over.gif");
+		icon_button_welcome_over = newImage("images/icon-button_welcome_over.gif");
+		icon_button_contacts_over = newImage("images/icon-button_contacts_over.gif");
+		icon_button_aboutus_over = newImage("images/icon-button_aboutus_over.gif");
+		button_welcome_over = newImage("images/button_welcome-over.gif");
+		button_aboutus_over = newImage("images/button_aboutus-over.gif");
+		button_contacts_over = newImage("images/button_contacts-over.gif");
+		button_proposals_over = newImage("images/button_proposals-over.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</SCRIPT>
+
+
+</HEAD>
+<BODY BGCOLOR=#FFFFFF background="images/bg_brown.gif" marginheight=0 marginwidth=0 leftmargin=0 topmargin=0 text=#ffffff ONLOAD="preloadImages();">
+
+<center>
+
+<TABLE WIDTH=726 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD width=73 valign=top>
+			<IMG SRC="images/title_programme.gif" WIDTH="73" HEIGHT="407" ALT="" BORDER="0"></TD>
+		<TD width=443 valign=top bgcolor="#ff3300">
+			<IMG SRC="images/blueoyster.gif" WIDTH="252" HEIGHT="168" ALT="" BORDER="0"><IMG NAME="pattern" SRC="images/pattern.gif" WIDTH=191 HEIGHT=168 border=0><BR>
+<!--wee box-->
+<table bgcolor="#cc3300" cellpadding=0 cellspacing=0 width=420 border=0>
+<tr>
+<td>
+
+<ilayer name="scroll1" width=420 height=200 clip="0,0,420,200">
+<layer name="scroll2" width=420 height=200>
+<div id="scroll3" style="width:420;height:200;overflow:auto">
+
+<table cellpadding=2 cellspacing=10 width=400 border=0>
+<tr><td COLSPAN=2 align=center>
+<font face="Arial,Helvetica" size=2 color="#ffffff">
+<SUB>* * *</SUB> PROGRAMME <SUB>* * *</SUB></TD>
+</TR>
+<TR>
+<td bgcolor="#ff3300">
+<font face="Arial,Helvetica" size=2 color="#ffffff">
+25th JUNE- 6th JULY</TD>
+<td>
+<font face="Arial,Helvetica" size=2 color="#ffffff">
+Paul Johns</TD>
+</TR>
+
+<TR>
+<td bgcolor="#ff3300">
+<font face="Arial,Helvetica" size=2 color="#ffffff">
+11th JUNE- 22nd JUNE</TD>
+<td>
+<font face="Arial,Helvetica" size=2 color="#ffffff">
+Georgina Morrison</TD>
+</TR>
+
+<TR>
+<td bgcolor="#ff3300">
+<font face="Arial,Helvetica" size=2 color="#ffffff">
+26th MAY - 6th JUNE</TD>
+<td>
+<font face="Arial,Helvetica" size=2 color="#ffffff">
+Group Show</TD>
+</TR>
+<TR>
+<td bgcolor="#ff3300">
+<font face="Arial,Helvetica" size=2 color="#ffffff">
+14th MAY - 25th MAY</TD>
+<td>
+<font face="Arial,Helvetica" size=2 color="#ffffff">
+Jane Venis</TD>
+</TR>
+<TR>
+<td bgcolor="#ff3300">
+<font face="Arial,Helvetica" size=2 color="#ffffff">
+30th APRIL - 11th MAY</TD>
+<td>
+<font face="Arial,Helvetica" size=2 color="#ffffff">
+David Hatcher</TD>
+</TR>
+</TABLE>
+</div>
+</div>
+</layer>
+</ilayer>
+</td>
+
+<script>
+
+/*
+Scrollable content Script- 
+© Dynamic Drive (www.dynamicdrive.com)
+For full source code, installation instructions,
+100's more DHTML scripts, and Terms Of
+Use, visit dynamicdrive.com
+*/
+
+var nsstyle='display:""'
+if (document.layers)
+var scrolldoc=document.scroll1.document.scroll2
+function up(){
+if (!document.layers) return
+if (scrolldoc.top<0)
+scrolldoc.top+=10
+temp2=setTimeout("up()",50)
+}
+function down(){
+if (!document.layers) return
+if (scrolldoc.top-150>=scrolldoc.document.height*-1)
+scrolldoc.top-=10
+temp=setTimeout("down()",50)
+}
+
+function clearup(){
+if (window.temp2)
+clearInterval(temp2)
+}
+
+function cleardown(){
+if (window.temp)
+clearInterval(temp)
+}
+
+</script>
+
+<td valign=top>
+<span style="display:none" style=&{nsstyle};><a href="#" onMousedown="up()"
+onMouseup="clearup()" onClick="return false" onMouseout="clearup()"><IMG SRC="images/uparrow.gif" WIDTH="14" HEIGHT="14" ALT="" BORDER="0"></a><br><a href="#"
+onMousedown="down()" onMouseup="cleardown()" onClick="return false"
+onMouseout="cleardown()"><IMG SRC="images/downarrow.gif" WIDTH="14" HEIGHT="14" ALT="" BORDER="0"></a> </span>
+</td>
+</tr>
+</table><IMG SRC="images/scrollbottom.gif" WIDTH="420" HEIGHT="6" ALT="" BORDER="0"><!--wee box--></TD>
+<TD width=177 valign=top>
+<IMG SRC="images/star.gif" WIDTH=177 HEIGHT=128><BR>
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=177 HEIGHT=279 BORDER=0 BACKGROUND="images/menustand.gif">
+<TR>
+<TD valign=top align=center><IMG NAME="icon" SRC="images/icon-button_programme_over.gif" WIDTH=128 HEIGHT=91>
+<BR>
+<A HREF="index.html" ONMOUSEOVER="changeImages('icon', 'images/icon-button_welcome_over.gif', 'button_welcome', 'images/button_welcome-over.gif'); return true;" ONMOUSEOUT="changeImages('icon', 'images/icon-button_programme_over.gif', 'button_welcome', 'images/button_welcome.gif'); return true;"><IMG NAME="button_welcome" SRC="images/button_welcome.gif" WIDTH=18 HEIGHT=122 BORDER=0 hspace=5 vspace=20></A><A HREF="contacts.html" ONMOUSEOVER="changeImages('icon', 'images/icon-button_contacts_over.gif', 'button_contacts', 'images/button_contacts-over.gif'); return true;" ONMOUSEOUT="changeImages('icon', 'images/icon-button_programme_over.gif', 'button_contacts', 'images/button_contacts.gif'); return true;"><IMG NAME="button_contacts" SRC="images/button_contacts.gif" WIDTH=21 HEIGHT=114 BORDER=0 hspace=3 vspace=18></a><IMG NAME="button_programme" SRC="images/button_programme-over.gif" WIDTH=25 HEIGHT=114 BORDER=0 hspace=5 vspace=17><A HREF="proposals.html" ONMOUSEOVER="changeImages('icon', 'images/icon-button_proposals_over.gif', 'button_proposals', 'images/button_proposals-over.gif'); return true;" ONMOUSEOUT="changeImages('icon', 'images/icon-button_programme_over.gif', 'button_proposals', 'images/button_proposals.gif'); return true;"><IMG NAME="button_proposals" SRC="images/button_proposals.gif" WIDTH=23 HEIGHT=114 BORDER=0 hspace=3 vspace=18></A><A HREF="aboutus.html" ONMOUSEOVER="changeImages('icon', 'images/icon-button_aboutus_over.gif', 'button_aboutus', 'images/button_aboutus-over.gif'); return true;" ONMOUSEOUT="changeImages('icon', 'images/icon-button_programme_over.gif', 'button_aboutus', 'images/button_aboutus.gif'); return true;"><IMG NAME="button_aboutus" SRC="images/button_aboutus.gif" WIDTH=21 HEIGHT=122 BORDER=0 hspace=5 vspace=20></A></TD>
+</TR>
+</TABLE>
+</TD>
+<TD width=33 valign=top><IMG SRC="images/sidebar.gif" WIDTH="33" HEIGHT="407" ALT="" BORDER="0"></td>
+</TR>
+</TABLE>
+
+<TABLE WIDTH=726 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+	<td><IMG SRC="images/bottom.gif" WIDTH="726" HEIGHT="53" ALT="" BORDER="0"></TD>
+	</tr>
+	<tr>
+	<td align=right><IMG SRC="images/bottom_man.gif" WIDTH="162" HEIGHT="39" ALT="" BORDER="0" hspace=45>
+<br><table width=250><tr><td align=center>137 High Street. Dunedin. <BR>New Zealand  + 64 4 567 8901</TD></TR></TABLE></TD>
+</TR>
+</table>
+
+
+</CENTER>
+
+
+
+<MAP NAME="menu_Map">
+<AREA SHAPE="rect" ALT="" COORDS="43,22,64,125" HREF="contacts.html"
+	ONMOUSEOVER="changeImages('pattern', 'images/pattern-ImageMap_06_over.gif', 'blueoyster', 'images/blueoyster-ImageMap_06_over.gif'); return true;"
+	ONMOUSEOUT="changeImages('pattern', 'images/pattern.gif', 'blueoyster', 'images/blueoyster.gif'); return true;">
+<AREA SHAPE="rect" ALT="" COORDS="14,16,34,109" HREF="index.html">
+<AREA SHAPE="rect" ALT="" COORDS="138,20,158,118" HREF="about.html">
+<AREA SHAPE="rect" ALT="" COORDS="108,24,127,139" HREF="proposals.html">
+<AREA SHAPE="rect" ALT="" COORDS="74,29,99,144" HREF="programme.html">
+</MAP>
+<!-- End ImageReady Slices -->
+</BODY>
+</HTML>
